@@ -166,7 +166,7 @@ To understand our results we must first understand the main difference in our co
 </table>
 
 ## Analysis of Stocks
-After running the VBA code to perform the Stock Analysis. we can see that the stocks generally did better in 2017 as compared to 2018, with the exceptions of **RUN** and **TERP**.
+After running the VBA code to perform the Stock Analysis. we can see that the stocks generally did better in 2017 as compared to 2018, with the exceptions of **RUN** and **TERP**, which saw significant increases.
 <table align="center">
   <tr>
     <th>All Stocks (2017)</th>
@@ -179,5 +179,12 @@ After running the VBA code to perform the Stock Analysis. we can see that the st
 </table>
 
 ## Summary
-- In conclusion, refactoring of code is also known as restructuring of code for optimization of output without changing the Output itself. This essentially means that the output is unchanged while the code that is being run has been modified to be more efficient/faster.
-- From the above screenshots we can safely see that there is a slight difference in the `AllStocksAnalysis()` and `AllStocksAnalysisRefactored()` subroutines, with an approximated difference of 0.8 s. These gains will be significantly larger if our dataset had hundreds and thousands of tickers and corresponding data.
+### Pros of refactoring code
+- In conclusion, refactoring of code is also known as restructuring of code for optimization of output without changing the output itself. This essentially means that the output is unchanged while the code that is being run has been modified to be more efficient/faster and extensible.
+- From the above screenshots we can safely see that there is a slight difference in the `AllStocksAnalysis()` and `AllStocksAnalysisRefactored()` subroutines, with an approximated difference of 0.8s. These gains will be significantly larger if our dataset had hundreds and thousands of tickers and corresponding data.
+- Lessens the repeatation of code.
+
+### Cons of refactoring code
+- Increasing the efficiency of the code by refactoring can cause the developer to lose precious time and can sometimes be not worth the effort, especially in case of small datasets.
+- Requires a sound mind to chart out a map for the re-structuring of code to enable extensibility.
+- In rare situations, this can lead to a deadlock where the developer might not know where to go.
