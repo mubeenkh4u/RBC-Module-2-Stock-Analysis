@@ -3,7 +3,7 @@
 ## Overview of Project
 The purpose of this project was to help steve perform stock analysis for all companies, especially DAQO New Energy Corporation which makes silicion wafers for solar panels. Since his parents have invested all there money into DAQO.
 
-- [Link to VBA_Challenge.xlsm](VBA_Challenge.xlsx)
+- [Link to VBA_Challenge.xlsm](VBA_Challenge.xlsm)
 - [Link to VBA_Challenge.vbs](VBA_Challenge.vbs)
 
 ### Purpose
