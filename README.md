@@ -3,12 +3,15 @@
 ## Overview of Project
 The purpose of this project was to help steve perform stock analysis for all companies, especially DAQO New Energy Corporation which makes silicion wafers for solar panels. Since his parents have invested all there money into DAQO.
 
-[Link to VBA_Challenge.xlsm](VBA_Challenge.xlsx)
+- [Link to VBA_Challenge.xlsm](VBA_Challenge.xlsx)
+- [Link to VBA_Challenge.vbs](VBA_Challenge.vbs)
 
 ### Purpose
 The purpose of this project was to perform analysis on stocks for our friend steve while simulataneously working on a refactored (optimized and better structred) version of code for performing the analysis. Here we loop through all the rows of the dataset once without having to go through it multiple times for each ticker. This refractor speeds up the code significantly since we only need to go through the each row once.
 
 ## Comparison and Results of Refactored Code
+
+### Comparison
 To understand our results we must first understand the main difference in our code. Here are two code blocks providing an understanding as to how the code worked for the Initial Stock Analysis, using the `AllStocksAnalysis()` sub in Module1 of our VBA code and Refractored Stock Analysis, using the `AllStocksAnalysisRefactored()` sub in Module2 of our VBA code.
 
 - Code for `AllStocksAnalysis()`
@@ -178,17 +181,32 @@ To understand our results we must first understand the main difference in our co
 
     Next i
 ```
+### Results of Refactored Code
+<table align="center">
+  <tr>
+    <th>Runtime of Original Code</th>
+    <th>Runtime of Refactored Code</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/mubeenkh4u/RBC-Module-2-Stock-Analysis/blob/main/Resources/VBA_Module_2017.png"></td>
+    <td><img src="https://github.com/mubeenkh4u/RBC-Module-2-Stock-Analysis/blob/main/Resources/VBA_Challenge_2017.png"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/mubeenkh4u/RBC-Module-2-Stock-Analysis/blob/main/Resources/VBA_Module_2018.png"></td>
+    <td><img src="https://github.com/mubeenkh4u/RBC-Module-2-Stock-Analysis/blob/main/Resources/VBA_Challenge_2018.png"></td>
+  </tr>
+</table>
 
 ## Analysis of Stocks
 After running the VBA code to perform the Stock Analysis. we can see that the stocks generally did better in 2017 as compared to 2018, with the exceptions of **RUN** and **TERP**.
-<table>
+<table align="center">
   <tr>
     <th>All Stocks (2017)</th>
     <th>All Stocks (2018)</th>
   </tr>
   <tr>
-    <td><img src=""></td>
-    <td><img src=""></td>
+    <td><img src="https://github.com/mubeenkh4u/RBC-Module-2-Stock-Analysis/blob/main/Resources/AllStocksAnalysis2017.png"></td>
+    <td><img src="https://github.com/mubeenkh4u/RBC-Module-2-Stock-Analysis/blob/main/Resources/AllStocksAnalysis2018.png"></td>
   </tr>
 </table>
 
