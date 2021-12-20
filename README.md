@@ -7,7 +7,7 @@ The purpose of this project was to help steve perform stock analysis for all com
 - [Link to VBA_Challenge.vbs](VBA_Challenge.vbs)
 
 ### Purpose
-The purpose of this project was to perform analysis on stocks for our friend steve while simulataneously working on a refactored (optimized and better structred) version of code for performing the analysis. Here we loop through all the rows of the dataset once without having to go through it multiple times for each ticker. This refractor speeds up the code significantly since we only need to go through the each row once.
+The purpose of this project was to perform analysis on stocks for our friend steve while simulataneously working on a refactored (optimized and better structured) version of code for performing the analysis. Here we loop through all the rows of the dataset once without having to go through it multiple times for each ticker. This refractor speeds up the code significantly since we only need to go through the each row once.
 
 ## Comparison and Results of Refactored Code
 
@@ -211,5 +211,5 @@ After running the VBA code to perform the Stock Analysis. we can see that the st
 </table>
 
 ## Summary
-- In conclusion, refactoring of code is also known as restructuring of code for optimization of output without changing the Output itself. This essentially means that the output is unchanged while the code that is being run has been modified to be more efficient.
+- In conclusion, refactoring of code is also known as restructuring of code for optimization of output without changing the Output itself. This essentially means that the output is unchanged while the code that is being run has been modified to be more efficient/faster.
 - From the above screenshots we can safely see that there is a slight difference in the `AllStocksAnalysis()` and `AllStocksAnalysisRefactored()` subroutines, with an approximated difference of 0.8 s. These gains will be significantly larger if our dataset had hundreds and thousands of tickers and corresponding data.
