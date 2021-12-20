@@ -1,4 +1,4 @@
-# RBC-Module-1-Kickstarter-Analysis
+# RBC-Module-2-Stock-Analysis
 
 ## Overview of Project
 The purpose of this project was to help steve perform stock analysis for all companies, especially DAQO New Energy Corporation which makes silicion wafers for solar panels. Since his parents have invested all there money into DAQO.
