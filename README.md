@@ -148,38 +148,6 @@ To understand our results we must first understand the main difference in our co
         ws4(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
         
     Next i
- 
-    'Formatting
-    Set fs = Sheet4
-    fs.Range("A3:C3").Font.FontStyle = "Bold"
-    fs.Range("A3:C3").Borders(xlEdgeBottom).LineStyle = xlContinuous
-    fs.Range("B4:B15").NumberFormat = "#,##0"
-    fs.Range("C4:C15").NumberFormat = "0.0%"
-    fs.Columns("B").AutoFit
-        
-    dataRowStart = 4
-    dataRowEnd = 15
-    
-    For i = dataRowStart To dataRowEnd
-
-        If ws4(i, 3) > 0 Then
-
-            'Color the cell green.
-            ws4(i, 3).Interior.Color = vbGreen
-
-        ElseIf ws4(i, 3) < 0 Then
-
-            'Color the cell red.
-            ws4(i, 3).Interior.Color = vbRed
-
-        Else
-
-            'Clear the cell color.
-            ws4(i, 3).Interior.Color = xlNone
-
-        End If
-
-    Next i
 ```
 ### Results of Refactored Code
 <table align="center">
